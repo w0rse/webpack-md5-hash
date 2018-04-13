@@ -14,7 +14,7 @@ function compareModules(a,b) {
 
 function getModuleSource (module) {
     var _source = module._source || {};
-    return _source._value || "";
+    return (_source._value || "") + module.id;
 }
 
 function concatenateSource (result, module_source) {
