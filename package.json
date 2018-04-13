@@ -1,7 +1,7 @@
 {
-  "name": "webpack-md5-hash",
+  "name": "tradingview-webpack-md5-hash",
   "version": "0.0.6",
-  "description": "Plugin to replace a standard webpack chunkhash with md5.",
+  "description": "A fork of a plugin to replace a standard webpack chunkhash with md5.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/erm0l0v/webpack-md5-hash.git"
+    "url": "https://github.com/w0rse/webpack-md5-hash.git"
   },
   "keywords": [
     "webpack",
@@ -27,9 +27,9 @@
   }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erm0l0v/webpack-md5-hash/issues"
+    "url": "https://github.com/w0rse/webpack-md5-hash/issues"
   },
-  "homepage": "https://github.com/erm0l0v/webpack-md5-hash",
+  "homepage": "https://github.com/w0rse/webpack-md5-hash",
   "dependencies": {
     "@types/webpack": "*",
     "md5": "^2.0.0"
